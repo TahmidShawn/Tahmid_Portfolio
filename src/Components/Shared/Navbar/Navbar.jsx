@@ -8,7 +8,7 @@ const Navbar = () => {
         <NavLink>About Us</NavLink>
     </>
     return (
-        <nav className="navbar bg-[#222222] text-white px-10 md:px-40">
+        <nav className="navbar bg-[#2C3333] text-white z-50 px-10 max-w-screen-xl md:px-40 fixed">
             <div className="navbar-start">
                 <img className="h-8" src={logo} alt="" />
             </div>

@@ -4,8 +4,8 @@ import logo from './../../../assets/logo.png'
 const Navbar = () => {
     const navLinks = <>
         <NavLink>Home</NavLink>
-        <NavLink>Courses</NavLink>
-        <NavLink>About Us</NavLink>
+        <NavLink>Contact</NavLink>
+        <NavLink>About Me</NavLink>
     </>
     return (
         <nav className="navbar bg-[#2C3333] text-white z-50 px-10 max-w-screen-xl md:px-40 fixed">

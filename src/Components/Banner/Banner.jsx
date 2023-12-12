@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import img from './../../assets/tahmid.png'
+import img from './../../assets/tahmid1.png'
 const Banner = () => {
     return (
         <header className="h-[560px] z-30 pt-32">
@@ -14,7 +14,7 @@ const Banner = () => {
             </div>
             <section>
 
-                <p className='text-gray-100 mt-12 text-center'>Hi, I'm a front-end developer specializing in React. I create sleek designs and seamless functionality. <br /> Also, I handle backend with Node Js, MongoDB, and Express</p>
+                <p className='text-gray-100 mt-12 text-center'>I'm a front-end developer specializing in React. I create sleek designs and seamless functionality. <br /> Also, I handle backend with Node Js, MongoDB, and Express</p>
                 <div className='flex justify-center gap-5 mt-12'>
                     <button className='text-white btn-outline btn rounded-3xl px-6'>Get In Touch</button>
                     <button className='bg-white btn text-black rounded-3xl p-2 px-6 font-bold hover:bg-gray-800 hover:text-white hover:btn-neutral'>Download CV</button>

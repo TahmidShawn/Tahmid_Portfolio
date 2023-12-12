@@ -3,8 +3,8 @@
 const Education = () => {
     return (
         <div>
-            <h2 className="text-center text-white text-3xl mt-10">EDUCATION</h2>
-            <ul className="timeline text-white flex justify-center mt-5 border-2 border-white w-max mx-auto px-28 py-2">
+            <h2 className="text-center text-white text-3xl my-14">EDUCATION</h2>
+            <ul className="timeline text-white flex justify-center mt-5 border-[1px] border-white w-max mx-auto px-28 py-4">
 
                 <li>
 

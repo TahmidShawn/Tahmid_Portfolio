@@ -3,7 +3,7 @@ import img from './../../assets/skills/git.png'
 
 const Contacts = () => {
     return (
-        <div>
+        <div id="contacts">
             <h2 className="text-center text-white text-3xl my-16">CONTACTS</h2>
             <div className="grid sm:grid-cols-2 items-center gap-16 my-6 mx-auto max-w-5xl p-10 text-white border-[1px] border-white font-[sans-serif]">
                 <div>
@@ -31,7 +31,7 @@ const Contacts = () => {
                     <div className="mt-12">
                         <h2 className="text-lg font-extrabold">Socials</h2>
                         <ul className="flex mt-3 space-x-4">
-                            
+
                             <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                                 <a target='_blanks' href="https://www.linkedin.com/in/tahmid-shawn/">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill='#007bff'

@@ -19,4 +19,3 @@ const Home = () => {
 };
 
 export default Home;
-// 393E46

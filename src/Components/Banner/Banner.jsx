@@ -1,6 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Link } from 'react-router-dom';
 import img from './../../assets/tahmid1.png'
+import { BsLinkedin } from "react-icons/bs";
+import { BiLogoFacebookSquare } from "react-icons/bi";
+
 const Banner = () => {
     const handleDownloadCV = () => {
         // Replace the URL with the direct link to your PDF file on Google Drive
@@ -16,7 +19,11 @@ const Banner = () => {
                 </div>
                 <div className='text-center md:text-left'>
                     <h1 className='text-gray-100 font-bold text-4xl mt-4'>Tahmid Shawn.</h1>
-                    <p className='text-gray-100 font-bold text-4xl mt-2'> Front-End Developer.</p>
+                    <h1 className='text-gray-100 font-bold text-4xl mt-2'> Front-End Developer.</h1>
+                    <section className='flex mt-2 items-center gap-1 ml-[2px]'>
+                        <a href='https://www.linkedin.com/in/tahmid-shawn/' target='_blanks' className='text-white text-2xl'> <BsLinkedin /></a>
+                        <a href='https://www.facebook.com/md.tahmid022' target='_blanks' className='text-white text-3xl'> <BiLogoFacebookSquare /> </a>
+                    </section>
                 </div>
             </div>
             <section>
@@ -29,6 +36,7 @@ const Banner = () => {
                     <button onClick={handleDownloadCV} className='bg-white btn text-black rounded-3xl p-2 px-6 font-bold hover:bg-gray-800 hover:text-white hover:btn-neutral'>Download CV</button>
                 </div>
             </section>
+
         </header>
     );
 };

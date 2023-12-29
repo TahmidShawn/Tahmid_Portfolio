@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import logo from './../../../assets/logo.png'
+// import logo from './../../../assets/logo.png'
 
 const Navbar = () => {
     const navLinks = <>
@@ -8,9 +8,10 @@ const Navbar = () => {
         <NavLink>About Me</NavLink>
     </>
     return (
-        <nav className="navbar bg-[#2C3333] text-white z-50 md:px-40 max-w-7xl fixed">
+        <nav className="navbar bg-[#F5F5F5] text-black z-50 max-w-5xl mx-0 px-0 fixed">
             <div className="navbar-start">
-                <img className="h-8" src={logo} alt="" />
+                {/* <img className="h-8 bg-black px-3 py-1" src={logo} alt="" /> */}
+                <h1 className="text-2xl font-bold">Tahmid.</h1>
             </div>
 
             <div className="navbar-end">

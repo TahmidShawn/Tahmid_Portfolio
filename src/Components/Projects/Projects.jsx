@@ -10,7 +10,7 @@ const AutoplaySlider = withAutoplay(AwesomeSlider);
 const Projects = () => {
     return (
         <div className='max-w-2xl mx-auto mt-20 relative'>
-            <h2 className="text-center text-white mb-10 text-3xl">PROJECTS</h2>
+            <h2 className="text-center text-black mb-10 text-3xl">PROJECTS</h2>
             <AutoplaySlider
                 className='h-[340px] w-full'
                 play={true}

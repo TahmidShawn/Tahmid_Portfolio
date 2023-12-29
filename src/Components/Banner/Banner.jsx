@@ -12,30 +12,37 @@ const Banner = () => {
 
     };
     return (
-        <header className="h-[560px] z-30 pt-32">
-            <div className="flex flex-col md:flex-row gap-10 justify-center items-center pt-0 md:pt-10">
-                <div className="w-52 rounded-full">
+        <header className="h-[560px] z-30 pt-32 max-w-6xl mx-auto">
+            <div className="flex flex-col md:flex-row gap-10 items-center justify-between pt-0 md:p-10 bg-white">
+                <div className="w-[700px]">
                     <img src={img} />
                 </div>
                 <div className='text-center md:text-left'>
-                    <h1 className='text-gray-100 font-bold text-4xl mt-4'>Tahmid Shawn.</h1>
-                    <h1 className='text-gray-100 font-bold text-4xl mt-2'> Front-End Developer.</h1>
-                    <section className='flex mt-2 items-center gap-1 ml-[2px]'>
-                        <a href='https://www.linkedin.com/in/tahmid-shawn/' target='_blanks' className='text-white text-2xl'> <BsLinkedin /></a>
-                        <a href='https://www.facebook.com/md.tahmid022' target='_blanks' className='text-white text-3xl'> <BiLogoFacebookSquare /> </a>
-                    </section>
-                </div>
-            </div>
-            <section>
+                    <h1 className='font-medium text-4xl mt-4'> Tahmid Shawn.</h1>
+                    <h1 className='font-medium text-4xl mt-2 mb-6'> Front-End Developer</h1>
 
-                <p className='text-gray-100 mt-12 text-center'>I'm a front-end developer specializing in React. I create sleek designs and seamless functionality. <br /> Also, I handle backend with Node Js, MongoDB, and Express</p>
-                <div className='flex justify-center gap-5 mt-12'>
-                    <Link target='_blanks' to='https://github.com/TahmidShawn'>
-                        <button className='text-white btn-outline btn rounded-3xl px-6'>My GitHub</button>
-                    </Link>
-                    <button onClick={handleDownloadCV} className='bg-white btn text-black rounded-3xl p-2 px-6 font-bold hover:bg-gray-800 hover:text-white hover:btn-neutral'>Download CV</button>
+                    <p className='mt-4 text-justify'>I'm a front-end developer specializing in React . I create sleek designs and seamless functionality . Also, I handle backend with Node Js, MongoDB, and Express.</p>
+                    {/* <section className='flex mt-2 items-center gap-1 ml-[2px]'>
+                        <a href='https://www.linkedin.com/in/tahmid-shawn/' target='_blanks' className='text-black text-2xl'> <BsLinkedin /></a>
+                        <a href='https://www.facebook.com/md.tahmid022' target='_blanks' className='text-black text-3xl'> <BiLogoFacebookSquare /> </a>
+                    </section> */}
+
+                    <section className='mt-6'>
+                        <div className=''>
+                            <Link target='_blanks' to='https://github.com/TahmidShawn'>
+                                <button className='bg-gray-800 text-white btn rounded-none p-2 px-6 font-bold hover:bg-gray-800 hover:text-white hover:btn-neutral'>GitHub</button>
+                            </Link>
+                            <button onClick={handleDownloadCV} className='bg-gray-800 text-white btn rounded-none p-2 px-6 font-bold hover:bg-gray-800 hover:text-white hover:btn-neutral'>Download CV</button>
+                            <Link target='_blanks' to='https://github.com/TahmidShawn'>
+                                <button className='bg-gray-800 text-white btn rounded-none p-2 px-6 font-bold hover:bg-gray-800 hover:text-white hover:btn-neutral'>Linkedin</button>
+                            </Link>
+                        </div>
+                    </section>
+
                 </div>
-            </section>
+
+            </div>
+
 
         </header>
     );

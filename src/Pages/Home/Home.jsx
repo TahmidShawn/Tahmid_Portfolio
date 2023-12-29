@@ -7,7 +7,7 @@ import Footer from "../../Components/Shared/Footer/Footer";
 
 const Home = () => {
     return (
-        <div className="bg-[#212529]">
+        <div className="text-[#282828]">
             <Banner></Banner>
             <Experience></Experience>
             <Projects></Projects>

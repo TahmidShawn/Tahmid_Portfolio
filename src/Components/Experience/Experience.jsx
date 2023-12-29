@@ -9,11 +9,11 @@ const skills = [skills1, skills2, skills3, skills4, skills5, skills6];
 
 const Experience = () => {
     return (
-        <section className="text-white pt-40 md:pt-20 ">
+        <section className="text-black pt-40 md:pt-20 ">
             <h2 className="text-center text-3xl">EXPERIENCE WITH</h2>
             <div className='grid grid-cols-3 md:grid-cols-6 max-w-3xl mx-auto mt-2'>
                 {skills.map((skill, index) => (
-                    <div key={index} className='border-[1px] border-white w-max p-3 rounded-xl mx-auto mt-8'>
+                    <div key={index} className='border-[1px] border-black w-max p-3 rounded-xl mx-auto mt-8'>
                         <img className='h-10 w-10' src={skill} alt="" />
                     </div>
                 ))}
